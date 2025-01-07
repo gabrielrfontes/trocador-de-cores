@@ -1,0 +1,59 @@
+ @import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+body {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(228, 225, 225);
+    font-family: "Jersey 15";
+}
+
+li, a, button{
+    font-size: 15pt;
+    text-decoration: none;
+    color: black;
+}
+
+div#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: auto;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.3);
+}
+
+#titulo{
+    color: rgba(12, 143, 190, 0.716);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;    
+}
+
+#links{
+    list-style: none;
+}
+
+#links li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+#links li a:hover {
+    color:rgba(12, 143, 190, 0.716);
+}
+
+#container{
+    display: flex;
+    box-sizing: border-box;
+    align-items:normal;
+    margin: 300px 100px 100px 100px;
+    padding: 0px 10px;
+}
+
+#botao {
+    font-family: "Jersey 15";
+    background-color:  rgb(228, 225, 225);
+    position: relative;
+
+}
