@@ -4,7 +4,7 @@ const cor = document.getElementById('cor')
 
 botao.addEventListener('click', function alterar(){
     let coresComplexas = '#';
-    for(let i = 0; i < 6; i++){ // Laço para formar o código das cores que têm o esse formato de 6 caracteres, por exemplo, #f1f5f8
+    for(let i = 0; i < 6; i++){ // Laço para formar o código das cores que tem esse formato de 6 caracteres, por exemplo, #f1f5f8
         coresComplexas += cores[gerarNumero()]
     }
 
